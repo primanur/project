@@ -1,3 +1,9 @@
+
+/*menerapkan box sizing ke semua sebagai border-box*/
+*{
+  box-sizing: border-box;
+}
+
 header {
   background-color:#424F5C;
   height:75px;
@@ -98,9 +104,11 @@ main {
 }
 
 .container {
-  width: 1170px;
+  max-width:1170px;/*menentukan lebar maksimal device*/
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+  
 }
 
 .top-wrapper h1 {
@@ -138,7 +146,7 @@ main {
 }
 
 .content-wrapper {
-  height: 500px;
+  /*heaight dihapus agar responsive*/
   padding-bottom: 80px;
   background-color:#7C8981;
   text-align: center;
@@ -154,6 +162,9 @@ main {
   float: left;
   width: 25%;
   color: #D8D5D2;
+  /* untuk responsiveness tambahkan padding-left and right*/
+   padding-left:15px;
+  padding-right:15px;
 }
 
 .content-icon {
@@ -168,7 +179,7 @@ main {
 
 .message-wrapper {
   border-bottom: 1px solid #424F5C;
-  margin-top: 20px;
+  margin-top: 0px;
   color:#424F5C;
   padding-bottom: 80px;
   text-align: center;
@@ -200,6 +211,7 @@ footer .container {
   align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
+  
 }
 .ftr h3 {
   font-size: 16px;
@@ -208,14 +220,22 @@ footer .container {
 }
 .content-ftr {
   list-style: none;
-  
   background: #424f5c;
-  
-}
-.content-ftr a {
+
+  float:left;
+  }
+footer .content a {
   text-decoration: none;
   color: #fff;
   line-height: 35px;
+  float:left;
+}
+.content-ftr a {
+
+  text-decoration: none;
+  color: #fff;
+  line-height: 35px;
+  float:left;
 }
 .content-ftr a:hover {
   opacity: 1;
