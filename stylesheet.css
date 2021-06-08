@@ -201,7 +201,7 @@ footer .container {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-footer .ftr h3 {
+.ftr h3 {
   font-size: 16px;
   margin-bottom: 20px;
   color: #fff;
