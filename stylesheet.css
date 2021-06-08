@@ -21,6 +21,9 @@ body {
   margin: 0;
   font-family: "Lucida Grande";
 }
+main {
+  height: 70vh;
+}
 .container {
   width: 100%;
   padding: 0 15px;
@@ -66,7 +69,31 @@ body {
   background-color: #D8D5D2;
 }
 
+.slider {
+    width: 500%;
+    height: 800px;
+    background: url(comic.png);
+    margin: 100px auto;
+    animation: slide 20s infinite;
+}
 
+@keyframes slide {
+    25%{
+        background: url(academic.png)
+    }
+
+    50%{
+        background: url(manga.png)
+    }
+
+    75%{
+        background: url(biography.png)
+    }
+
+    100%{
+        background: url(comic.png)
+    }
+}
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(https://cdn.pixabay.com/photo/2015/10/31/14/35/dark-1015828_960_720.jpg);
@@ -174,11 +201,11 @@ body {
 /*CSS FOOTER*/
 footer {
   background: #424f5c;
-  padding: 50px 20px;
+  /*padding: 50px 20px;*/
 }
 footer .container {
   width: 100%;
-  max-width: 1000px;
+  /*max-width: 1000px;*/
   margin: 0 auto;
   display: flex;
   align-items: flex-start;
@@ -186,14 +213,15 @@ footer .container {
   flex-wrap: wrap;
   
 }
-footer .ftr h3 {
+.ftr h3 {
   font-size: 16px;
   margin-bottom: 20px;
   color: #fff;
 }
-footer .content {
+.content-ftr {
   list-style: none;
   background: #424f5c;
+
   float:left;
   }
 footer .content a {
@@ -202,10 +230,23 @@ footer .content a {
   line-height: 35px;
   float:left;
 }
-footer .content a:hover {
+.content-ftr a {
+
+  text-decoration: none;
+  color: #fff;
+  line-height: 35px;
+  float:left;
+}
+.content-ftr a:hover {
   opacity: 1;
 }
 input {
   width: 180px;
   padding-top: 5px;
+}
+.fa {
+  margin-right:5px;
+}
+li {
+list-style:none;
 }
