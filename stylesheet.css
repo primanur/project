@@ -181,7 +181,9 @@ footer .ftr h3 {
 }
 footer .content {
   list-style: none;
+  <!--fix box putih-->
   background: #424f5c;
+  
 }
 footer .content a {
   text-decoration: none;
