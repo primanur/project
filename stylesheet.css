@@ -192,7 +192,7 @@ footer {
   background: #424f5c;
   /*padding: 50px 20px;*/
 }
-footer .container {
+/* footer .container {
   width: 100%;
   /*max-width: 1000px;*/
   margin: 0 auto;
@@ -200,7 +200,7 @@ footer .container {
   align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
-}
+} */
 footer .ftr h3 {
   font-size: 16px;
   margin-bottom: 20px;
