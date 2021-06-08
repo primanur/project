@@ -63,7 +63,31 @@ main {
   background-color: #D8D5D2;
 }
 
+.slider {
+    width: 500%;
+    height: 800px;
+    background: url(comic.png);
+    margin: 100px auto;
+    animation: slide 20s infinite;
+}
 
+@keyframes slide {
+    25%{
+        background: url(academic.png)
+    }
+
+    50%{
+        background: url(manga.png)
+    }
+
+    75%{
+        background: url(biography.png)
+    }
+
+    100%{
+        background: url(comic.png)
+    }
+}
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(https://cdn.pixabay.com/photo/2015/10/31/14/35/dark-1015828_960_720.jpg);
