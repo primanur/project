@@ -206,18 +206,18 @@ footer .container {
   margin-bottom: 20px;
   color: #fff;
 }
-.content {
+.content-ftr {
   list-style: none;
   
   background: #424f5c;
   
 }
-.content a {
+.content-ftr a {
   text-decoration: none;
   color: #fff;
   line-height: 35px;
 }
-.content a:hover {
+.content-ftr a:hover {
   opacity: 1;
 }
 input {
