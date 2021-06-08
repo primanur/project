@@ -181,6 +181,7 @@ footer .ftr h3 {
 }
 footer .content {
   list-style: none;
+  background: #424f5c;
 }
 footer .content a {
   text-decoration: none;
