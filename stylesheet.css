@@ -160,3 +160,37 @@ body {
   top: 7px;
   box-shadow: none;
 }
+/*CSS FOOTER*/
+footer {
+  background: #424f5c;
+  padding: 50px 20px;
+}
+footer .container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .ftr h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+footer .content {
+  list-style: none;
+}
+footer .content a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 35px;
+}
+footer .content a:hover {
+  opacity: 1;
+}
+input {
+  width: 180px;
+  padding-top: 5px;
+}
