@@ -15,6 +15,9 @@ body {
   margin: 0;
   font-family: "Lucida Grande";
 }
+main {
+  height: 70vh;
+}
 .container {
   width: 100%;
   padding: 0 15px;
