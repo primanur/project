@@ -68,32 +68,35 @@ main {
 .content {
   background-color: #D8D5D2;
 }
-
-.slider {
-    width: 500%;
-    height: 800px;
-    background: url(comic.png);
+/* Ini kode slider untuk animasi,width nya kegedean */
+/*.slider {
+    width: 100%;
+    height: 200px;
+    background: url(gambar1.jpg);
+    background-color:white;
     margin: 100px auto;
+    padding-left:15px;
+    padding-right:15px;
     animation: slide 20s infinite;
-}
+}*/
 
-@keyframes slide {
+/*@keyframes slide {
     25%{
-        background: url(academic.png)
+        background: url(gambar2.jpg)
     }
 
     50%{
-        background: url(manga.png)
+        background: url(gambar3.png)
     }
 
     75%{
-        background: url(biography.png)
+        background: url(gambar4.jpg)
     }
 
     100%{
-        background: url(comic.png)
+        background: url(gambar1.jpg)
     }
-}
+}*/
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(https://cdn.pixabay.com/photo/2015/10/31/14/35/dark-1015828_960_720.jpg);
@@ -109,6 +112,18 @@ main {
   padding: 0 15px;
   margin: 0 auto;
   
+}
+
+.container h3{
+
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .top-wrapper h1 {
@@ -176,7 +191,6 @@ main {
   height:200px;
 }
 
-
 .message-wrapper {
   border-bottom: 1px solid #424F5C;
   margin-top: 0px;
@@ -184,6 +198,7 @@ main {
   padding-bottom: 80px;
   text-align: center;
   background-color: #D8D5D2;
+  width: 100%;
 }
 
 .message {
@@ -249,4 +264,16 @@ input {
 }
 li {
 list-style:none;
+}
+/*animasi*/
+#cf6_image {
+  margin:0 auto;
+  width:330px;
+  height:432px;
+  transition: background-image 1s ease-in-out;
+  background-image:url("gambar4.jpg");
+}
+
+#cf6_image:hover {
+  background-image:url("gambar1.jpg");
 }
